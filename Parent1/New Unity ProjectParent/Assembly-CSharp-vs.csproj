@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{401BB7E0-17A6-B6BB-0219-86818A3539F8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_METRO;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_LAZY_METHOD_CACHING;ENABLE_AUDIO_FMOD;ENABLE_WINRT_PINVOKE;ENABLE_TERRAIN;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;UNITY_WINRT;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_SERIALIZATION_BY_CODEGENERATION;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_WSA;ENABLE_PROFILER;UNITY_WP_8_1;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\metrosupport/Tools/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Blade_girl\scripts\characterRotate.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Example\Scripts\AnimationPlayer.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Example\Scripts\BarOptionsGUI.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Example\Scripts\BarOptionsGUIMulti.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Example\Scripts\BarPresentation.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Example\Scripts\EnergyBarPresentationColorize.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Example\Scripts\EnergyBarUGUISlider.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Example\Scripts\GoCircles.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Example\Scripts\MultiBarSliders.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\3DRenderers\EnergyBar3DBase.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\3DRenderers\FilledRenderer3D.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\3DRenderers\RepeatedRenderer3D.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\3DRenderers\SequenceRenderer3D.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\3DRenderers\TransformRenderer3D.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\ColorBind.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBar.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBarBase.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBarCommons.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBarFollowObject.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBarOnGUIBase.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBarRenderer.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBarRepeatRenderer.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBarSequenceRenderer.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\EnergyBarTransformRenderer.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\Screen2.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\SimpleEvent.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\Utils.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\uGUI\EnergyBarUGUIBase.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\uGUI\FadeUGUI.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\uGUI\FilledRendererUGUI.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\uGUI\Image2.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\uGUI\RepeatedRendererUGUI.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\uGUI\SequenceRendererUGUI.cs" />
+     <Compile Include="Assets\Energy Bar Toolkit\Scripts\uGUI\TransformRendererUGUI.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RpcIndexComponent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\HighlightOwnedGameObj.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomRoundTimer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnAwakeUsePhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ServerTime.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowInfoOfPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Script\ChangeScene.cs" />
+     <Compile Include="Assets\Script\Mute.cs" />
+     <Compile Include="Assets\Scripts\AltarOfEldersParent.cs" />
+     <Compile Include="Assets\Scripts\CameraScrolling.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\BallMovement.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\BallMovement2.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\BallMovement3.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\BallMovement4.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonActivation.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonActivation2.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonActivation3.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonActivation4.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonDesactivator.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonDesactivator2.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonDesactivator3.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonDesactivator4.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonIconActivation.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonShoot.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonShoot2.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonShoot3.cs" />
+     <Compile Include="Assets\Scripts\CanonShoot\CanonShoot4.cs" />
+     <Compile Include="Assets\Scripts\CharacterStrollingParent.cs" />
+     <Compile Include="Assets\Scripts\CoinScript.cs" />
+     <Compile Include="Assets\Scripts\CubeNumber.cs" />
+     <Compile Include="Assets\Scripts\DestroyMonster.cs" />
+     <Compile Include="Assets\Scripts\DetailShowObjects.cs" />
+     <Compile Include="Assets\Scripts\LocationPlayerManager.cs" />
+     <Compile Include="Assets\Scripts\ManageSCore.cs" />
+     <Compile Include="Assets\Scripts\MoneyCount.cs" />
+     <Compile Include="Assets\Scripts\MysteryItem.cs" />
+     <Compile Include="Assets\Scripts\NetworkCharacter.cs" />
+     <Compile Include="Assets\Scripts\PausingGame.cs" />
+     <Compile Include="Assets\Scripts\PhotonState.cs" />
+     <Compile Include="Assets\Scripts\PinchZoom.cs" />
+     <Compile Include="Assets\Scripts\ScoreCounter.cs" />
+     <Compile Include="Assets\Scripts\SpawnObjects.cs" />
+     <Compile Include="Assets\Scripts\TresorManager.cs" />
+     <Compile Include="Assets\Scripts\panScript.cs" />
+     <Compile Include="Assets\Toon_fire\scripts\demo_scene_control.cs" />
+     <Compile Include="Assets\Toon_fire\scripts\fire_wiggle.cs" />
+     <Compile Include="Assets\Toon_fire\scripts\flickering.cs" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\Font White DB.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Fantasy Enemy Pack 01\Mushroom Monster\Read me.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\Font DB.shader" />
+     <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Fantasy Enemy Pack 01\Crawling Bug\Read me.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Cartoon FX\CartoonFX Releases Notes.txt" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\Font.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTint.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTintPre.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\ExpandFillShaderPre.shader" />
+     <None Include="Assets\MOBA and Tower Defense\info.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Example\Fonts\Boogaloo\boogaloo_glyphs.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\Font White.shader" />
+     <None Include="Assets\Images\Nouveau document texte.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\UnlitShaderPre.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\RadialFillShaderPre.shader" />
+     <None Include="Assets\Blade_girl\ReadMe_[V 2.0]_03_25.txt" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\VerticalFillShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShaderPre.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Bridge\readme.txt" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\RadialFillShader.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Fantasy Enemy Pack 01\Masked Orc\Read Me.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\UnlitShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Fantasy Enemy Pack 01\Magma Demon\Read me.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Scripts\Sources\How To Build.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\ExpandFillShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\VerticalFillShaderPre.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Fantasy Enemy Pack 01\Plant Monster\Read me.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\HorizontalFillShader.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTintPre DB.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Fantasy Enemy Pack 01\Monster Cat Bat\Read me.txt" />
+     <None Include="Assets\Energy Bar Toolkit\README.txt" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\Energy Bar Toolkit\Resources\Shaders\UnlitTransparentTint DB.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Energy Bar Toolkit\Example\Fonts\Boogaloo\SIL OFL Font License Boogaloo.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Fantasy Enemy Pack 01\Flower Monster\Read me.txt" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+     <None Include="Assets\Cartoon FX\CartoonFX Readme.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Fantasy Enemy Pack 01\Monster Hornet\Read me.txt" />
+     <None Include="Assets\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Mad2D">
+ <HintPath>D:/Band/Parent 1/New Unity ProjectParent/Assets/Energy Bar Toolkit/Scripts/Mad2D.dll</HintPath>
+ </Reference>
+ <Reference Include="MadCommons">
+ <HintPath>D:/Band/Parent 1/New Unity ProjectParent/Assets/Energy Bar Toolkit/Scripts/MadCommons.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>D:/Band/Parent 1/New Unity ProjectParent/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{E3716B7D-F523-D874-A3FE-0439700CDC1B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
